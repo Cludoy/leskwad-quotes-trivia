@@ -1,12 +1,12 @@
 [
   {
-    "quote": "x: \"where's ur omen y\"\n- WHERE'S OMEN F3LN????",
-    "correct": "ali",
+    "quote": "x: \"where's ur omen y\"\ny: WHERE'S OMEN F3LN????",
+    "correct": "cloudy and ali",
     "choices": [
-      "ali",
-      "drag",
-      "ashraf",
-      "geo"
+      "cloudy and ali",
+      "drag and cloudy",
+      "drag and Douva",
+      "george and ali"
     ]
   },
   {
@@ -30,17 +30,7 @@
     ]
   },
   {
-    "quote": "sotak y2rf ybny\"",
-    "correct": "drag",
-    "choices": [
-      "dmc",
-      "george",
-      "drag",
-      "Cloudy"
-    ]
-  },
-  {
-    "quote": "t3ala yabnl sharmu eda\" ~geo",
+    "quote": "t3ala yabnl sharmu eda\" ~x",
     "correct": "geo",
     "choices": [
       "Douva",
@@ -61,12 +51,12 @@
   },
   {
     "quote": "Eft7o league 3obal magy\" ~x\n\"x t3ala el7a2\" ~y\n\"Eh yabny\" ~x\n\"El l3ba 3mlt crash.............. *manually*..\" ~y",
-    "correct": ["cloudy", "ashraf"],
+    "correct": "cloudy and ashraf",
     "choices": [
-      ["cloudy", "smk"],
-      ["smk", "drag"],
-      ["george", "smk"],
-      ["cloudy", "ashraf"]
+      "cloudy and smk",
+      "smk and drag",
+      "george and smk",
+      "cloudy and ashraf"
     ]
   },
   {
@@ -121,52 +111,42 @@
   },
   {
     "quote": "hn7ot smk 3l grill w naklo\" ~x\n\"ana lw mnk ya smk msm7sh 7d y2oly keda\" ~y\n\"e7na ray7en nsyf fa m7tgen r2asa fa t3ala enta thzlna ba2a ya Thz\" ~z",
-    "correct": ["Douva", "george", "smk"],
+    "correct": "Douva and george and smk",
     "choices": [
-      ["Douva", "george", "smk"],
-      ["cloudy", "george", "smk"],
-      ["Douva", "ali", "cloudy"],
-      ["ali", "cloudy", "Douva"]
+      "Douva and george and smk",
+      "cloudy and george and smk",
+      "Douva and ali and cloudy",
+      "ali and cloudy and Douva"
     ]
   },
   {
-    "quote": "enta 3ndk el tahwya kwysa asln for the m.2?\" ~smk\n\"ybny de t7t el cart 3latol fa mwdo3 lazeez y3ny\" ~drag\n\"hya mrw7t el gpu btshfot wla bts7b\" ~smk\n\"la hya bts7b\" ~drag\n\"la btshfot\" ~smk",
-    "correct": "smk",
+    "quote": "enta 3ndk el tahwya kwysa asln for the m.2?\" ~x\n\"ybny de t7t el cart 3latol fa mwdo3 lazeez y3ny\" ~y\n\"hya mrw7t el gpu btshfot wla bts7b\" ~x\n\"la hya bts7b\" ~y\n\"la btshfot\" ~x",
+    "correct": "smk and drag",
     "choices": [
-      "jizo",
-      "smk",
-      "RANDOM",
-      "slime"
+      "ali and joe",
+      "smk and drag",
+      "ashraf and cloudy",
+      "george and drag"
     ]
   },
   {
-    "quote": "ana 3ayzk tmshy ya george\" ~drag\n\"y3m enta malak y3m 8oor enta\" ~geo\n\"aywa ya drag 8oor y3m m7dsh 3ayzk\" ~smk\n\"bos ba2a 3la el 5wl el byda5l mana5ero f teez el wezza kol shwya dah\" ~drag\n\"aywa ya drag ana b3ml keda\" ~smk",
-    "correct": "drag",
+    "quote": "el wall m3mlo wall\" ~x\n\"a7a ana fhmtk leh\" ~y",
+    "correct": "Drag and Geo",
     "choices": [
-      "ashraf",
-      "ashf",
-      "Joe",
-      "drag"
+      "Drag and Geo",
+      "Geo and Drag",
+      "cloudy and ashraf",
+      "ali and ashraf"
     ]
   },
   {
-    "quote": "el wall m3mlo wall\" ~drag\n\"a7a ana fhmtk leh\" ~geo",
-    "correct": "geo",
+    "quote": " y3ny eh egotistical ~ x\"\n\"yabny bos basically ego fel testical\" ~ y",
+    "correct": "ali and geo",
     "choices": [
-      "slime",
-      "geo",
-      "ashf",
-      "Thz"
-    ]
-  },
-  {
-    "quote": "george y3ny eh egotistical\"\n\"yabny bos basically ego fel testical\" ~ geo",
-    "correct": "geo",
-    "choices": [
-      "geo",
-      "ashf",
-      "Drag",
-      "Joe"
+      "ali and geo",
+      "drag and geo",
+      "cloudy and ali",
+      "cloudy and ashraf"
     ]
   },
   {
@@ -180,110 +160,90 @@
     ]
   },
   {
-    "quote": "dana et5an2t m3 morgan embar7\" ~Douva\n\"Da lma konto btl3bo f drag\" ~Cloudy\n\"A7A ANA MALY ANA\" ~Drag",
-    "correct": "Cloudy",
+    "quote": "dana et5an2t m3 morgan embar7\" ~x\n\"Da lma konto btl3bo f drag\" ~y\n",
+    "correct": "Douva and Cloudy",
     "choices": [
-      "Douva",
-      "Cloudy",
-      "ashf",
-      "WHERE"
+      "Douva and smk",
+      "smk and Cloudy",
+      "Douva and Cloudy",
+      "smk and Douva"
     ]
   },
   {
-    "quote": "el bed el mslo2 mo4klto m7tag l7ma kter\" -drag",
+    "quote": "el bed el mslo2 mo4klto m7tag l7ma kter\" -x",
     "correct": "drag",
     "choices": [
       "Cloudy",
       "drag",
-      "geo",
-      "Thz"
+      "Douva",
+      "smk"
     ]
   },
   {
-    "quote": "el wrana bytklm 3n da3f zngy\" -ashf 2024",
-    "correct": "ashf",
+    "quote": "el wrana bytklm 3n da3f zngy\" -x",
+    "correct": "ashraf",
     "choices": [
-      "Joe",
-      "ashf",
-      "drag",
-      "dmc"
-    ]
-  },
-  {
-    "quote": "mb3rfsh ataba2 lebs 7atta\" ~geo",
-    "correct": "geo",
-    "choices": [
-      "geo",
-      "ali",
+      "Douva",
+      "ashraf",
       "drag",
       "smk"
     ]
   },
   {
-    "quote": "drag ana mbhzrsh ana mmkn aba mb3rfsh aslo2 beida\" ~geo",
-    "correct": "geo",
-    "choices": [
-      "Thz",
-      "drag",
-      "geo",
-      "plat"
-    ]
-  },
-  {
-    "quote": "ana lw kont akbr kam sana kont zmany etgawzt hollie\"\n~geo",
-    "correct": "geo",
-    "choices": [
-      "geo2k24",
-      "geo",
-      "slime",
-      "RANDOM"
-    ]
-  },
-  {
-    "quote": "70 kg to 180cm\" -geo",
+    "quote": "mb3rfsh ataba2 lebs 7atta\" ~x",
     "correct": "geo",
     "choices": [
       "geo",
-      "Cloudy",
       "ali",
-      "geo2k24"
+      "drag",
+      "Douva"
     ]
   },
   {
-    "quote": "You shoot 100% of the shots you dont shoot\"\n~ashraf",
+    "quote": "drag ana mbhzrsh ana mmkn aba mb3rfsh aslo2 beida\" ~x",
+    "correct": "geo",
+    "choices": [
+      "ashraf",
+      "Douva",
+      "geo",
+      "Cloudy"
+    ]
+  },
+  {
+    "quote": "You shoot 100% of the shots you dont shoot\"\n~x",
     "correct": "ashraf",
     "choices": [
       "Joe",
       "ashraf",
-      "the",
-      "Thz"
-    ]
-  },
-  {
-    "quote": "kant games s3ba bs el7 we pulled out\" -drag",
-    "correct": "drag",
-    "choices": [
-      "vrigin",
-      "plat",
-      "sherbo",
+      "smk",
       "drag"
     ]
   },
   {
-    "quote": "estana ashof el 2ota nshft wla lesa\" -geo",
+    "quote": "kant games s3ba bs el7 we pulled out\" -x",
+    "correct": "drag",
+    "choices": [
+      "george",
+      "ali",
+      "cloudy",
+      "drag"
+    ]
+  },
+  {
+    "quote": "estana ashof el 2ota nshft wla lesa\" -x",
     "correct": "geo",
     "choices": [
       "ashf",
       "geo",
-      "Thz",
-      "cloudy"
+      "drag",
+      "smk"
     ]
   },
   {
-    "quote": "oh shit s7\" -ashraf",
+    "quote": "oh shit s7\" -x",
     "correct": "ashraf",
     "choices": [
-      "slime",
+      "joe",
       "cloudy",
       "ali",
       "ashraf"
@@ -293,84 +253,64 @@
     "quote": "get off my ass\" -ali",
     "correct": "ali",
     "choices": [
-      "sherbo",
+      "ashraf",
       "Drag",
-      "geo2k24",
+      "cloudy",
       "ali"
     ]
   },
   {
-    "quote": "ana msh 3sby! ana mgnon\" ~sherbo",
-    "correct": "sherbo",
-    "choices": [
-      "Cloudy",
-      "sherbo",
-      "ali",
-      "WHERE"
-    ]
-  },
-  {
-    "quote": "hd5ol swiftplay m3 4 egirls hgeeb 4 wives\" -geo",
+    "quote": "hd5ol swiftplay m3 4 egirls hgeeb 4 wives\" -x",
     "correct": "geo",
     "choices": [
-      "cloudy",
-      "Joe",
+      "drag",
+      "smk",
       "geo",
-      "vrigin"
+      "ali"
     ]
   },
   {
-    "quote": "what do you call a nun in a wheelchair - vrigin mobile\"\n\"what's the difference between Jews and pizza - the pizza didnt spin the oven\" \"what do you call a black priest - a shit priest\" -RANDOM VALORANT CHAMBER",
-    "correct": "the",
-    "choices": [
-      "Douva",
-      "the",
-      "WHERE",
-      "a"
-    ]
-  },
-  {
-    "quote": "u go back shit kidder\" -ali",
+    "quote": "u go back shit kidder\" -x",
     "correct": "ali",
     "choices": [
       "ali",
-      "jizo",
+      "drag",
       "Joe",
       "Cloudy"
     ]
   },
   {
-    "quote": "ana spotify kan bygebly gay songs w daddy issues fa edtaret a3ml alt\" \n~smk 2022",
+    "quote": "ana spotify kan bygebly gay songs w daddy issues fa edtaret a3ml alt\" \n~x",
     "correct": "smk",
     "choices": [
-      "a",
+      "ali",
       "ashf",
       "smk",
-      "WHERE"
+      "drag"
     ]
   },
   {
-    "quote": "wtf bylmsny 8lt\" -ali",
+    "quote": "wtf bylmsny 8lt\" -x",
     "correct": "ali",
     "choices": [
-      "dmc",
+      "cloudy",
       "drag",
       "ali",
-      "plat"
+      "smk"
     ]
   },
   {
-    "quote": "7d 5d balo en el fennec shabah el mango\" -ali",
+    "quote": "7d 5d balo en el fennec shabah el mango\" -x",
     "correct": "ali",
     "choices": [
       "ali",
       "cloudy",
       "ashraf",
-      "plat"
+      "george"
     ]
   },
   {
-    "quote": "3mal at5an2 m3 el brim w jett msh 3yza t peak\" -ali",
+    "quote": "3mal at5an2 m3 el brim w jett msh 3yza t peak\" -x",
     "correct": "ali",
     "choices": [
       "Douva",
@@ -380,83 +320,73 @@
     ]
   },
   {
-    "quote": "ana lw a3dt al3b aim lab mn shahr 12 kan zmany bgeb 130k dlw2ty\" -smk",
+    "quote": "ana lw a3dt al3b aim lab mn shahr 12 kan zmany bgeb 130k dlw2ty\" -x",
     "correct": "smk",
     "choices": [
-      "the",
-      "sherbo",
+      "george",
+      "drag",
       "smk",
-      "slime"
+      "Joe"
     ]
   },
   {
-    "quote": "etfrgt 3al film bta3 tamer 7elmy?\" -the drag",
-    "correct": "the",
+    "quote": "etfrgt 3al film bta3 tamer 7elmy?\" -x",
+    "correct": "drag",
     "choices": [
-      "a",
+      "ali",
       "Cloudy",
       "geo",
-      "the"
-    ]
-  },
-  {
-    "quote": "*\"mr hwa ezay t7rarna mn el est3mar el oroby\"\n\"sh8lna el mrw7a ahahah\"*\nDeleted User|||''eh el 2rf da y3my 2 kano diamonds, e7na 5srannha'' w b3dha ygeeb ace\nDeleted User|||'Phoenix is the best agent with op, ur gold 3 you wouldn't understand the agent combos' ~plat 3 smurf",
-    "correct": "plat",
-    "choices": [
-      "vrigin",
-      "smk",
-      "plat",
       "drag"
     ]
   },
   {
-    "quote": "Mra wa7d 3ml kobayt shay t2el, m3rfsh yshlha\" -a5o drag",
-    "correct": "a5o",
+    "quote": "Mra wa7d 3ml kobayt shay t2el, m3rfsh yshlha\" -drag",
+    "correct": "drag",
     "choices": [
-      "jizo",
-      "sherbo",
-      "dmc",
-      "a5o"
+      "ali",
+      "ashraf",
+      "Cloudy",
+      "drag"
     ]
   },
   {
-    "quote": "eduh bgd? win win\" -dmc",
+    "quote": "eduh bgd? win win\" -x",
     "correct": "dmc",
     "choices": [
-      "vrigin",
-      "the",
+      "smk",
+      "cloudy",
       "Drag",
       "dmc"
     ]
   },
   {
-    "quote": "by2olk nom fel 3asr te2sr el 3omr\" -drag\nDeleted User|||Drag: ''aktr ascent b7bha f ascent hya ascent''",
+    "quote": "by2olk nom fel 3asr te2sr el 3omr\" -x\n",
     "correct": "drag",
     "choices": [
       "Douva",
       "smk",
       "drag",
-      "the"
+      "ali"
     ]
   },
   {
-    "quote": "ana fe 2nd sanawy\"\n\"yala bsmellah elra7man el ra7eem, 19+21\"\n-smk",
+    "quote": "ana fe 2nd sanawy\"\n\"yala bsmellah elra7man el ra7eem, 19+21\"\n-x",
     "correct": "smk",
     "choices": [
       "Cloudy",
       "ashraf",
-      "geo2k24",
+      "geo",
       "smk"
     ]
   },
   {
-    "quote": "hbe3 el pc w ageb 144hz monitor\" -slime",
-    "correct": "slime",
+    "quote": "hbe3 el pc w ageb 144hz monitor\" ",
+    "correct": "joe",
     "choices": [
       "ashraf",
-      "jizo",
-      "sherbo",
-      "slime"
+      "joe",
+      "ali",
+      "smk"
     ]
   }
 ]

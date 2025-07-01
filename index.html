@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discord Quotes Trivia</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #1e1e2f; color: white; }
+        .container { max-width: 700px; margin: auto; }
+        .quote-box { background: #2e2e40; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        .quote { font-size: 1.3em; margin-bottom: 20px; }
+        .choices { display: flex; flex-direction: column; gap: 10px; }
+        button { background: #3e3e60; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #5e5e80; }
+        .result { margin-top: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Discord Quotes Trivia</h1>
+        <div class="quote-box">
+            <div class="quote" id="quoteText">Loading...</div>
+            <div class="choices" id="choicesBox"></div>
+            <div class="result" id="resultBox"></div>
+            <button onclick="nextQuote()">Next Quote</button>
+        </div>
+    </div>
+
+    <script>
+        let trivia = [];
+        let current = 0;
+
+        async function loadTrivia() {
+            const response = await fetch('quotes_trivia.json');
+            trivia = await response.json();
+            nextQuote();
+        }
+
+        function nextQuote() {
+            if (current >= trivia.length) {
+                document.getElementById('quoteText').textContent = "🎉 You've reached the end!";
+                document.getElementById('choicesBox').innerHTML = "";
+                document.getElementById('resultBox').textContent = "";
+                return;
+            }
+            const q = trivia[current];
+            document.getElementById('quoteText').textContent = q.quote;
+            const choicesBox = document.getElementById('choicesBox');
+            const resultBox = document.getElementById('resultBox');
+            resultBox.textContent = "";
+            choicesBox.innerHTML = "";
+
+            q.choices.forEach(choice => {
+                const btn = document.createElement('button');
+                btn.textContent = choice;
+                btn.onclick = () => {
+                    if (choice === q.correct) {
+                        resultBox.textContent = "✅ Correct!";
+                        resultBox.style.color = "lightgreen";
+                    } else {
+                        resultBox.textContent = "❌ Wrong! Correct answer: " + q.correct;
+                        resultBox.style.color = "red";
+                    }
+                };
+                choicesBox.appendChild(btn);
+            });
+
+            current++;
+        }
+
+        loadTrivia();
+    </script>
+</body>
+</html>

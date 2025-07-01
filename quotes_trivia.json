@@ -11,12 +11,12 @@
   },
   {
     "quote": "da m5ll?\" -x\n\"Ah\" -y\n\"Mb7bosh\" ***takes a bite*** -x",
-    "correct": ["ali","Joe"],
+    "correct": "ali and Joe",
     "choices": [
-      ["Geo", "Drag"],
-      ["Cloudy", "smk"],
-      ["ali", "Cloudy"],
-      ["ali","Joe"]
+      "Geo and Drag",
+      "Cloudy and smk",
+      "ali and Cloudy",
+      "ali and Joe"
     ]
   },
   {
@@ -51,12 +51,12 @@
   },
   {
     "quote": "x: eda de bent\" \n\"y: meen???? reyna????\" \n(y byl3b reyna)",
-    "correct": ["Drag", "george"],
+    "correct": "Drag and george",
     "choices": [
-      ["Cloudy", "ali"],
-      ["smk", "ali"],
-      ["ali", "george"],
-      ["Drag", "george"]
+      "Cloudy and ali",
+      "smk and ali",
+      "ali and george",
+      "Drag and george"
     ]
   },
   {

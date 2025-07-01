@@ -28,22 +28,24 @@
 
     <script>
         let trivia = [];
+        let shuffled = [];
         let current = 0;
 
         async function loadTrivia() {
             const response = await fetch('quotes_trivia.json');
             trivia = await response.json();
+            shuffled = trivia.sort(() => Math.random() - 0.5); // Shuffle randomly
             nextQuote();
         }
 
         function nextQuote() {
-            if (current >= trivia.length) {
+            if (current >= shuffled.length) {
                 document.getElementById('quoteText').textContent = "🎉 You've reached the end!";
                 document.getElementById('choicesBox').innerHTML = "";
                 document.getElementById('resultBox').textContent = "";
                 return;
             }
-            const q = trivia[current];
+            const q = shuffled[current];
             document.getElementById('quoteText').textContent = q.quote;
             const choicesBox = document.getElementById('choicesBox');
             const resultBox = document.getElementById('resultBox');

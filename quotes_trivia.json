@@ -150,16 +150,6 @@
     ]
   },
   {
-    "quote": "DRAG CYPHER??!?!\" ~jizo\n\"W ALI CLOUDY?!!?\" -smk",
-    "correct": "jizo",
-    "choices": [
-      "plat",
-      "geo",
-      "ali",
-      "jizo"
-    ]
-  },
-  {
     "quote": "dana et5an2t m3 morgan embar7\" ~x\n\"Da lma konto btl3bo f drag\" ~y\n",
     "correct": "Douva and Cloudy",
     "choices": [
@@ -340,7 +330,7 @@
     ]
   },
   {
-    "quote": "Mra wa7d 3ml kobayt shay t2el, m3rfsh yshlha\" -drag",
+    "quote": "Mra wa7d 3ml kobayt shay t2el, m3rfsh yshlha\" -x",
     "correct": "drag",
     "choices": [
       "ali",
